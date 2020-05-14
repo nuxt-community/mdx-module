@@ -1,12 +1,21 @@
-# @nuxtjs/mdx
+<p align="center" style="color: #343a40">
+  <img src="https://mdx-logo.now.sh/" alt="MDX">
+  <h1 align="center">@nuxtjs/mdx</h1>
+</p>
+<p align="center">
+  <a href="https://npmjs.com/package/@nuxtjs/mdx"><img src="https://img.shields.io/npm/v/@nuxtjs/mdx/latest.svg?style=flat-square" alt="npm version"></a>
+  <a href="https://npmjs.com/package/@nuxtjs/mdx"><img src="https://img.shields.io/npm/dt/@nuxtjs/mdx.svg?style=flat-square" alt="npm downloads"></a>
+  <a href="https://circleci.com/gh/nuxt-community/mdx-module"><img src="https://img.shields.io/circleci/project/github/mdx-community/emotion-module.svg?style=flat-square" alt="circle ci"></a>
+  <a href="https://codecov.io/gh/nuxt-community/mdx-module"><img src="https://img.shields.io/codecov/c/github/nuxt-community/mdx-module.svg?style=flat-square" alt="coverage"></a>
+  <a href="https://www.npmjs.com/package/@nuxtjs/mdx"><img src="https://img.shields.io/npm/l/@nuxtjs/mdx.svg?style=flat-square" alt="License"></a>
+</p>
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
-[![Codecov][codecov-src]][codecov-href]
-[![License][license-src]][license-href]
+> [MDX](https://mdxjs.org) module for Nuxt.js
 
-> MDX module for Nuxt.js
+## Features
+
+- Load `.mdx` files inside Vue components.
+- Register `.mdx` files as routes in `pages` directory.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
