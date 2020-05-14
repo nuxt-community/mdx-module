@@ -1,6 +1,10 @@
 <template>
   <div>
     <Comp />
+
+    <nuxt-link to="/">
+      &larr; Return to home
+    </nuxt-link>
   </div>
 </template>
 
