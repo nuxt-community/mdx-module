@@ -1,0 +1,45 @@
+{
+  "name": "@nuxtjs/mdx",
+  "version": "0.0.0",
+  "description": "MDX module for Nuxt.js",
+  "repository": "",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "codebender828 <jbakebwa@163.com>"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "@mdx-js/vue-loader": "^1.6.1",
+    "babel-loader": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
