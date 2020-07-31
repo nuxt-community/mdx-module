@@ -51,7 +51,7 @@ yarn add @nuxtjs/mdx # or npm install @nuxtjs/mdx
 
 [MIT License](./LICENSE)
 
-Copyright (c) codebender828 <jbakebwa@163.com>
+Copyright (c) Jonathan Bakebwa <codebender828@gmail.com>
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/mdx/latest.svg
