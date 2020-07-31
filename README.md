@@ -26,11 +26,28 @@
 ```bash
 yarn add @nuxtjs/mdx # or npm install @nuxtjs/mdx
 ```
+2. Install `@vue/babel-preset-jsx` and add it to your babel config presets
 
-2. Add `@nuxtjs/mdx` to the `modules` section of `nuxt.config.js`
+```bash
+yarn add @vue/babel-preset-jsx -D
+
+# with npm
+npm install @vue/babel-preset-jsx --save-dev
+```
+In your `.babelrc` file:
+```json
+{
+  "presets": [
+    "@vue/babel-preset-jsx"
+  ]
+}
+```
+
+
+3. Add `@nuxtjs/mdx` to the `modules` section of `nuxt.config.js`
 
 ```js
-{
+export default {
   modules: [
     // Simple usage
     '@nuxtjs/mdx',
