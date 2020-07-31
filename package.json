@@ -20,7 +20,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "@mdx-js/vue-loader": "^1.6.1",
+    "@mdx-js/vue-loader": "latest",
     "babel-loader": "^8.1.0"
   },
   "devDependencies": {
