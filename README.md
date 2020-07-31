@@ -49,11 +49,7 @@ In your `.babelrc` file:
 ```js
 export default {
   modules: [
-    // Simple usage
-    '@nuxtjs/mdx',
-
-    // With options
-    ['@nuxtjs/mdx', { /* module options */ }]
+    '@nuxtjs/mdx'
   ]
 }
 ```
