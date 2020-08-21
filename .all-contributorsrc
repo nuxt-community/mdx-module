@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "Atinux",
+      "name": "Sébastien Chopin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/904724?v=4",
+      "profile": "https://atinux.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "pi0",
       "name": "pooya parsa",
       "avatar_url": "https://avatars0.githubusercontent.com/u/5158436?v=4",
@@ -15,10 +24,11 @@
       ]
     },
     {
-      "login": "Atinux",
-      "name": "Sébastien Chopin",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/904724?v=4",
-      "profile": "https://atinux.com",
+
+      "login": "codebender828",
+      "name": "Jonathan Bakebwa",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21237954?v=4",
+      "profile": "https://jbakebwa.dev",
       "contributions": [
         "code"
       ]
