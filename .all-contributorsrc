@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Atinux",
+      "name": "Sébastien Chopin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/904724?v=4",
+      "profile": "https://atinux.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

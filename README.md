@@ -78,6 +78,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/pi0"><img src="https://avatars0.githubusercontent.com/u/5158436?v=4" width="100px;" alt=""/><br /><sub><b>pooya parsa</b></sub></a><br /><a href="https://github.com/codebender828/mdx-module/commits?author=pi0" title="Code">💻</a></td>
+    <td align="center"><a href="https://atinux.com"><img src="https://avatars2.githubusercontent.com/u/904724?v=4" width="100px;" alt=""/><br /><sub><b>Sébastien Chopin</b></sub></a><br /><a href="https://github.com/codebender828/mdx-module/commits?author=Atinux" title="Code">💻</a></td>
   </tr>
 </table>
 
