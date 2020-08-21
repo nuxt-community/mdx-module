@@ -24,31 +24,14 @@
 1. Add `@nuxtjs/mdx` dependency to your project
 
 ```bash
-yarn add @nuxtjs/mdx # or npm install @nuxtjs/mdx
-```
-2. Install `@vue/babel-preset-jsx` and add it to your babel config presets
-
-```bash
-yarn add @vue/babel-preset-jsx -D
-
-# with npm
-npm install @vue/babel-preset-jsx --save-dev
-```
-In your `.babelrc` file:
-```json
-{
-  "presets": [
-    "@vue/babel-preset-jsx"
-  ]
-}
+yarn add --dev @nuxtjs/mdx # or npm install --dev @nuxtjs/mdx
 ```
 
-
-3. Add `@nuxtjs/mdx` to the `modules` section of `nuxt.config.js`
+2. Add `@nuxtjs/mdx` to the `buildModules` section of `nuxt.config.js`
 
 ```js
 export default {
-  modules: [
+  buildModules: [
     '@nuxtjs/mdx'
   ]
 }
@@ -57,8 +40,8 @@ export default {
 ## Development
 
 1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
+2. Install dependencies using `yarn`
+3. Start development server using `yarn dev`
 
 ## License
 

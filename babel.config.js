@@ -5,8 +5,7 @@ module.exports = {
         targets: {
           esmodules: true
         }
-      },
-      '@vue/babel-preset-jsx'
+      }
     ]
   ]
 }
