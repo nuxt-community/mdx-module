@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.5.1",
+    "@nuxtjs/mdx": "latest",
     "nuxt": "^2.14.3"
   }
 }

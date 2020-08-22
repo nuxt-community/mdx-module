@@ -32,12 +32,15 @@ Inside `hello.mdx`, add some markdown content:
   This a Nuxt MDX tomato.
 </section>
 
-<nuxt-link to="/some/path">
-  to some page &rarr;
+<nuxt-link to="/setup">
+  back to setup page &rarr;
 </nuxt-link>
 ```
 
-After starting your app server, you can now view your rendered `hello.mdx` page at `localhost:3000/hello` 🎉
+**Result:**
+
+<hello></hello>
+
 
 ## Import `.mdx` files in Vue components
 You can also import `.mdx` files as inside other Vue components.
