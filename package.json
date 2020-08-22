@@ -17,7 +17,8 @@
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
-    "test": "yarn lint && jest"
+    "test": "yarn lint && jest",
+    "docs:dev": "yarn --cwd website dev"
   },
   "dependencies": {
     "@mdx-js/vue-loader": "latest",
@@ -36,7 +37,7 @@
     "eslint": "latest",
     "husky": "latest",
     "jest": "latest",
-    "nuxt-edge": "latest",
+    "nuxt": "latest",
     "standard-version": "latest"
   },
   "publishConfig": {
