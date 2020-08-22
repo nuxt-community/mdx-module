@@ -7,7 +7,7 @@ category: Advanced concepts
 
 `@nuxtjs/mdx` installs `@mdx/vue` and `@mdx/vue-loader` as dependencies in your project. Together they allow you to map Vue components to HTML elements based on the Markdown syntax.
 
-`@mdx/vue` exports the `MDXProvider` component that accepts an object with a map of all components you to be rendered in the HTML.
+`@mdx/vue` exports the `MDXProvider` component that accepts an object with a map of all HTML elements you wish to be replaced with the corresponding component during rendering.
 
 ## Usage
 Suppose we have an `helloworld.mdx` file with a header element that we would like to replace with a component with it's own styles/interactions.
