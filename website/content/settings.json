@@ -5,6 +5,6 @@
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
-  "github": "",
-  "twitter": "@nuxt_js"
+  "github": "nuxt-community/mdx-module",
+  "twitter": "@mdx_js"
 }

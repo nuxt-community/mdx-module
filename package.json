@@ -14,6 +14,7 @@
   ],
   "main": "lib/module.js",
   "scripts": {
+    "postinstall": "yarn --cwd website",
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",

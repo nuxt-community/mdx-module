@@ -5,38 +5,40 @@ position: 2
 category: Guide
 ---
 
+
 Check the [Nuxt.js documentation](https://nuxtjs.org/api/configuration-modules#the-modules-property) for more information about installing and using modules in Nuxt.js.
 
 ## Installation
 
-Add `@nuxtjs/xxx` dependency to your project:
+Add `@nuxtjs/mdx` as a dependency to your project:
 
 <code-group>
   <code-block label="Yarn" active>
 
-  ```bash
-  yarn add @nuxtjs/xxx
-  ```
+```bash
+yarn add @nuxtjs/mdx
+```
 
   </code-block>
   <code-block label="NPM">
 
-  ```bash
-  npm install @nuxtjs/xxx
-  ```
+```bash
+npm install @nuxtjs/mdx
+```
 
   </code-block>
 </code-group>
 
-Then, add `@nuxtjs/xxx` to the `modules` section of `nuxt.config.js`:
+## Configure
+
+Then, add `@nuxtjs/mdx` to the `buildModules` section of `nuxt.config.js`:
 
 ```js[nuxt.config.js]
-{
-  modules: [
-    '@nuxtjs/xxx'
-  ],
-  xxx: {
-    // Options
-  }
+export default {
+  buildModules: [
+    '@nuxtjs/mdx'
+  ]
 }
 ```
+
+
