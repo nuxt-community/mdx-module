@@ -1,25 +1,23 @@
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![@nuxtjs/mdx](https://mdx.nuxtjs.org/preview.png)](https://mdx.nuxtjs.org)
 
-<p align="center" style="color: #343a40">
-  <img src="https://mdx-logo.now.sh/" alt="MDX">
-  <h1 align="center">@nuxtjs/mdx</h1>
-</p>
-<p align="center">
-  <a href="https://npmjs.com/package/@nuxtjs/mdx"><img src="https://img.shields.io/npm/v/@nuxtjs/mdx/latest.svg?style=flat-square" alt="npm version"></a>
-  <a href="https://npmjs.com/package/@nuxtjs/mdx"><img src="https://img.shields.io/npm/dt/@nuxtjs/mdx.svg?style=flat-square" alt="npm downloads"></a>
-  <a href="https://circleci.com/gh/nuxt-community/mdx-module"><img src="https://img.shields.io/circleci/project/github/mdx-community/emotion-module.svg?style=flat-square" alt="circle ci"></a>
-  <a href="https://codecov.io/gh/nuxt-community/mdx-module"><img src="https://img.shields.io/codecov/c/github/nuxt-community/mdx-module.svg?style=flat-square" alt="coverage"></a>
-  <a href="https://www.npmjs.com/package/@nuxtjs/mdx"><img src="https://img.shields.io/npm/l/@nuxtjs/mdx.svg?style=flat-square" alt="License"></a>
-</p>
+# @nuxtjs/mdx
 
-> [MDX](https://mdxjs.org) module for Nuxt.js
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
+[![Codecov][codecov-src]][codecov-href]
+[![License][license-src]][license-href]
+
+> [MDX](https://mdxjs.com) module for [Nuxt](https://nuxtjs.org)
+
+- [✨ &nbsp;Release Notes](https://mdx.nuxtjs.org/releases)
+- [📖 &nbsp;Documentation](https://mdx.nuxtjs.org)
 
 ## Features
 
-- Load `.mdx` files inside Vue components.
-- Register `.mdx` files as routes in `pages` directory.
+- Import `.mdx` files as Vue components
+- Import Vue components in your `.mdx` files
+- Replace markdown elements with Vue components with the MDX Provider.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -42,9 +40,11 @@ export default {
 ```
 
 ## Usage
+
 After installing the `@nuxtjs/mdx` module, you're ready to start using MDX files in your Nuxt app. The `@nuxtjs/mdx` module picks up all `.mdx` files used in your Nuxt app and converts them into Vue components. This makes it possible to use MDX files as Nuxt routes and regular components.
 
 ### Using `.mdx` files in `~/pages` directory
+
 Start by creating a `hello.mdx` file in your `~/pages` directory.
 
 ```[Application]
@@ -146,3 +146,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/mdx/latest.svg
+[npm-version-href]: https://npmjs.com/package/@nuxtjs/mdx
+
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/mdx.svg
+[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/mdx
+
+[github-actions-ci-src]: https://github.com/nuxt-community/mdx-module/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/nuxt-community/mdx-module/actions?query=workflow%3Aci
+
+[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/mdx-module.svg
+[codecov-href]: https://codecov.io/gh/nuxt-community/mdx-module
+
+[license-src]: https://img.shields.io/npm/l/@nuxtjs/mdx.svg
+[license-href]: https://npmjs.com/package/@nuxtjs/mdx
