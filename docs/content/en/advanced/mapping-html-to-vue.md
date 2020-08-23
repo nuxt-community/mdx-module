@@ -1,8 +1,9 @@
 ---
-title: Mapping HTML elements to Vue components
-description: ''
+title: Mapping HTML to Vue
+description: 'Nuxt MDX configure @mdx.vue and @mdx/vue-loader to map Vue components to HTML elements.'
 position: 4
-category: Advanced concepts
+fullscreen: true
+category: Advanced
 ---
 
 `@nuxtjs/mdx` installs `@mdx/vue` and `@mdx/vue-loader` as dependencies in your project. Together they allow you to map Vue components to HTML elements based on the Markdown syntax.
@@ -10,6 +11,7 @@ category: Advanced concepts
 `@mdx/vue` exports the `MDXProvider` component that accepts an object with a map of all HTML elements you wish to be replaced with the corresponding component during rendering.
 
 ## Usage
+
 Suppose we have an `helloworld.mdx` file with a header element that we would like to replace with a component with it's own styles/interactions.
 
 ```md[helloworld.mdx]

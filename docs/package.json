@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "mdx-docs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content-theme-docs": "^0.5.1",
+    "@nuxt/content-theme-docs": "^0.5.2",
     "@nuxtjs/mdx": "latest",
     "nuxt": "^2.14.3"
+  },
+  "devDependencies": {
+    "nuxt-ackee": "^1.0.1"
   }
 }

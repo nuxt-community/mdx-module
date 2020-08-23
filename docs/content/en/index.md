@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: ''
+description: 'Nuxt MDX allows you to write JSX in your Markdown documents in your Nuxt application.'
 position: 1
 category: ''
 features:
@@ -12,10 +12,14 @@ features:
 <img src="/preview.png" class="light-img" />
 <img src="/preview-dark.png" class="dark-img" />
 
-`@nuxtjs/mdx` allows you to seamlessly write JSX in your Markdown documents in your [Nuxt](https://nuxtjs.org) application with [MDX](https://mdxjs.com).
+`@nuxtjs/mdx` allows you to write JSX in your Markdown documents in your [Nuxt](https://nuxtjs.org) application with [MDX](https://mdxjs.com).
 
 ## Features
 
 <list :items="features"></list>
 
 <p class="flex items-center">Enjoy light and dark mode:&nbsp;<app-color-switcher class="inline-flex ml-2"></app-color-switcher></p>
+
+## About MDX
+
+To learn more about MDX please visit the [official documentation](https://mdxjs.com).

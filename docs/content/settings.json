@@ -1,10 +1,10 @@
 {
-  "title": "Official documentation for @nuxtjs/mdx",
+  "title": "Nuxt MDX",
   "url": "https://mdx.nuxtjs.org",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
   },
   "github": "nuxt-community/mdx-module",
-  "twitter": "@mdx_js"
+  "twitter": "@nuxt_js"
 }

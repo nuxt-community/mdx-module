@@ -1,13 +1,15 @@
 ---
 title: Usage
-description: ''
+subtitle: "Using MDX files in your Nuxt app is easy."
+description: "With the @nuxtjs/mdx module, you're ready to start using MDX files in your Nuxt app."
 position: 3
 category: Guide
 ---
 
-After installing the `@nuxtjs/mdx` module, you're ready to start using MDX files in your Nuxt app. The `@nuxtjs/mdx` module picks up all `.mdx` files used in your Nuxt app and converts them into Vue components. This makes it possible to use MDX files as Nuxt routes and regular components.
+The module picks up all `.mdx` files used in your Nuxt app and converts them into Vue components. Making possible to use MDX files as Nuxt pages and regular components.
 
-## Using `.mdx` files in `~/pages` directory
+## Write MDX pages
+
 Start by creating a `hello.mdx` file in your `~/pages` directory.
 
 ```[Application]
@@ -39,10 +41,12 @@ Inside `hello.mdx`, add some markdown content:
 
 **Result:**
 
-<hello></hello>
+<div class="border p-4">
+  <hello></hello>
+</div>
 
+## Import MDX files in Vue
 
-## Import `.mdx` files in Vue components
 You can also import `.mdx` files as inside other Vue components.
 
 ```vue
