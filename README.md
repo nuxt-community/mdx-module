@@ -110,22 +110,6 @@ export default {
 
 Copyright (c) Jonathan Bakebwa <codebender828@gmail.com>
 
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/mdx/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/mdx
-
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/mdx.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/mdx
-
-[github-actions-ci-src]: https://github.com//workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com//actions?query=workflow%3Aci
-
-[codecov-src]: https://img.shields.io/codecov/c/github/.svg
-[codecov-href]: https://codecov.io/gh/
-
-[license-src]: https://img.shields.io/npm/l/@nuxtjs/mdx.svg
-[license-href]: https://npmjs.com/package/@nuxtjs/mdx
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
