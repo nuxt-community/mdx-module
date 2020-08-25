@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/mdx",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "MDX module for Nuxt.js",
   "repository": "",
   "license": "MIT",
