@@ -7,7 +7,7 @@ category: Guide
 
 ## Installation
 
-Add `@nuxtjs/mdx` as a dependency to your project:
+Add `@nuxtjs/mdx` as a development dependency to your project:
 
 <code-group>
   <code-block label="Yarn" active>
