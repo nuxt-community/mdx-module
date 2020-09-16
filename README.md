@@ -29,7 +29,7 @@
 
 [MIT License](./LICENSE)
 
-Copyright (c) Jonathan Bakebwa <codebender828@gmail.com>
+Copyright (c) Nuxt Community
 
 
 <!-- Badges -->
