@@ -7,6 +7,8 @@ category: Guide
 
 ## Installation
 
+> Requires a minimum Nuxt version of v2.10.0. See [nuxt/nuxt.js#5854](https://github.com/nuxt/nuxt.js/pull/5854)
+
 Add `@nuxtjs/mdx` as a development dependency to your project:
 
 <code-group>

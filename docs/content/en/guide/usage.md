@@ -53,17 +53,7 @@ You can also import `.mdx` files as inside other Vue components.
 <template>
   <div>
     <!-- 👇🏽 MDX file is parsed as Vue component -->
-    <MyMDXComponent />
+    <hello />
   </div>
 </template>
-
-<script>
-import MyMDXComponent from '~/components/MyMDXComponent.mdx'
-
-export default {
-  components: {
-    MyMDXComponent
-  }
-}
-</script>
 ```
