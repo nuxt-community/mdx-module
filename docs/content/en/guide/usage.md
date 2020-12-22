@@ -34,7 +34,7 @@ Inside `hello.mdx`, add some markdown content:
   This a Nuxt MDX tomato.
 </section>
 
-<nuxt-link to="/setup">
+<nuxt-link to="/guide/setup">
   back to setup page &rarr;
 </nuxt-link>
 ```
