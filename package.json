@@ -23,17 +23,17 @@
   },
   "dependencies": {
     "@mdx-js/vue-loader": "latest",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.2.2"
   },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
-    "@changesets/cli": "^2.11.0",
+    "@changesets/cli": "^2.12.0",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
-    "@vue/babel-preset-jsx": "^1.1.2",
+    "@vue/babel-preset-jsx": "^1.2.4",
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",

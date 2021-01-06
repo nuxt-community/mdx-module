@@ -9,9 +9,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content-theme-docs": "^0.6.1",
+    "@nuxt/content-theme-docs": "^0.8.2",
     "@nuxtjs/mdx": "latest",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.11"
   },
   "devDependencies": {
     "nuxt-ackee": "^2.0.0"
