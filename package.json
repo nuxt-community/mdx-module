@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@mdx-js/vue-loader": "latest",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^9.1.0"
   },
   "devDependencies": {
     "@babel/core": "latest",
