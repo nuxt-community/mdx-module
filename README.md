@@ -8,7 +8,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> [MDX](https://mdxjs.com) module for [Nuxt](https://nuxtjs.org)
+> [MDX](https://mdxjs.com) module for [Nuxt 2](https://nuxt.com)
 
 - [✨ &nbsp;Release Notes](https://mdx.nuxtjs.org/releases)
 - [📖 &nbsp;Documentation](https://mdx.nuxtjs.org)
