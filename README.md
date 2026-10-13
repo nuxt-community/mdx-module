@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is archived. `@nuxtjs/mdx` was built for Nuxt 2, which reached end of life on June 30, 2024.
+
 [![@nuxtjs/mdx](https://mdx.nuxtjs.org/preview.png)](https://mdx.nuxtjs.org)
 
 # @nuxtjs/mdx
